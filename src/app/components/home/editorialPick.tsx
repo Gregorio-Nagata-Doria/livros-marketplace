@@ -10,7 +10,11 @@ const featured = {
 };
 
 const more = [
-  { title: "Ensaio sobre a Cegueira", author: "José Saramago", from: "R$ 24,50" },
+  {
+    title: "Ensaio sobre a Cegueira",
+    author: "José Saramago",
+    from: "R$ 24,50",
+  },
   { title: "A Casa dos Espíritos", author: "Isabel Allende", from: "R$ 28,00" },
   { title: "Ficções", author: "Jorge Luis Borges", from: "R$ 31,00" },
 ];
@@ -27,7 +31,9 @@ export default function EditorialPick() {
 
       <div className="grid gap-10 md:grid-cols-2">
         <article className="flex flex-col items-start gap-6 sm:flex-row">
-          <BookCover bookName={featured.title} authorName={featured.author} />
+          <div className="w-44 shrink-0">
+            <BookCover bookName={featured.title} authorName={featured.author} />
+          </div>
           <div>
             <blockquote className="font-serif text-xl italic leading-snug text-ink">
               “{featured.quote}”

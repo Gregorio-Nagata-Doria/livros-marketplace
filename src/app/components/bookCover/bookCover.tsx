@@ -83,7 +83,7 @@ export default function BookCover({ bookName, authorName, index = 0 }: BookCover
   const pick = bookColors[colorIndex(title + author)]!;
   return (
     <div
-      className="flex aspect-[3/4.4] w-44 flex-col justify-end overflow-hidden rounded-[2px_6px_6px_2px] pt-5 pr-3.5 pb-3.5 pl-6"
+      className="flex aspect-[3/4.4] w-full flex-col justify-end overflow-hidden rounded-[2px_6px_6px_2px] pt-5 pr-3.5 pb-3.5 pl-6"
       style={{
         background: pick.cloth,
         boxShadow:

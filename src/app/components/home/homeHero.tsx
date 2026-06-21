@@ -56,19 +56,19 @@ export default function HomeHero() {
       </div>
 
       <div className="flex items-center justify-center py-4">
-        <div className="z-0 origin-bottom -rotate-12 translate-y-4 -mr-16">
+        <div className="z-0 w-44 origin-bottom -rotate-12 translate-y-4 -mr-16">
           <BookCover
             bookName="Grande Sertão: Veredas"
             authorName="João Guimarães Rosa"
           />
         </div>
-        <div className="z-20 -translate-y-2">
+        <div className="z-20 w-44 -translate-y-2">
           <BookCover
             bookName="Cem Anos de Solidão"
             authorName="Gabriel García Márquez"
           />
         </div>
-        <div className="z-0 origin-bottom rotate-12 translate-y-4 -ml-16">
+        <div className="z-0 w-44 origin-bottom rotate-12 translate-y-4 -ml-16">
           <BookCover
             bookName="A Hora da Estrela"
             authorName="Clarice Lispector"
