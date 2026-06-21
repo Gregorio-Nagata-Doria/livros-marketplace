@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-hanken);
+  --font-serif: var(--font-spectral);
+  --font-mono: var(--font-plex-mono);
+
+  /* Marca */
+  --color-primary: oklch(0.42 0.058 155);        /* verde-biblioteca */
+  --color-primary-hover: oklch(0.36 0.058 155);
+  --color-oxblood: oklch(0.46 0.115 25);         /* quente · erro · destaque */
+  --color-oxblood-hover: oklch(0.40 0.115 25);
+  --color-gold: oklch(0.76 0.10 78);             /* ouro velho · selos · curadoria */
+  --color-gold-hover: oklch(0.70 0.10 78);
+
+  /* Superfícies e tinta */
+  --color-paper: oklch(0.92 0.008 90);           /* fundo da página · = #e7e5df do mockup */
+  --color-surface: oklch(0.975 0.006 88);        /* cards · mais claro que paper */
+  --color-line: oklch(0.88 0.010 80);            /* bordas */
+  --color-ink: oklch(0.23 0.012 70);             /* texto principal */
+  --color-ink-soft: oklch(0.44 0.012 70);
+  --color-ink-faint: oklch(0.62 0.010 70);
+
+  /* Condição — novo */
+  --color-novo-tint: oklch(0.95 0.03 150);
+  --color-novo-line: oklch(0.80 0.06 150);
+  --color-novo-dot: oklch(0.50 0.10 150);
+  /* Condição — bom */
+  --color-bom-tint: oklch(0.95 0.035 118);
+  --color-bom-line: oklch(0.82 0.07 118);
+  --color-bom-dot: oklch(0.56 0.09 115);
+  /* Condição — razoável */
+  --color-razoavel-tint: oklch(0.95 0.05 80);
+  --color-razoavel-line: oklch(0.84 0.09 80);
+  --color-razoavel-dot: oklch(0.64 0.11 78);
+  /* Condição — desgastado */
+  --color-desgastado-tint: oklch(0.94 0.045 45);
+  --color-desgastado-line: oklch(0.82 0.09 45);
+  --color-desgastado-dot: oklch(0.55 0.12 45);
+}
